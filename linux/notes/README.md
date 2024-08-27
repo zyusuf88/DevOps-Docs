@@ -150,8 +150,35 @@
 
 The tree command provides a visual representation of the directory hierarchy, making it easier to navigate and understand the organization of files and folders within a system. 
 
+## User Management and Sudo Commands:
 
+| **Command**                                   | **Description/Usage**                                                                                       |
+|-----------------------------------------------|-------------------------------------------------------------------------------------------------------------|
+| `sudo useradd newuser`                        | Creates a new user named `newuser`.                                                                          |
+| `sudo passwd newuser`                         | Sets a password for the `newuser` account.                                                                   |
+| `su - newuser`                                | Switches to the `newuser` account. The `-` option ensures that the user is logged in with their environment settings. |
+| `sudo usermod -aG sudo newuser`               | Adds `newuser` to the `sudo` group, allowing them to execute commands with `sudo` privileges.                |
+| `su - newuser`                                | Switches to the `newuser` account after they have been granted `sudo` privileges.                            |
 
+**Note**: After adding a user to the `sudo` group, they may need to log out and log back in for the changes to take effect.
+
+>**Warning**
+>If the home directory for `newuser` does not exist (as shown by the error > "cannot change directory"), you may need to create it manually. |
+
+![Screenshot 2024-08-27 183425](https://github.com/user-attachments/assets/67ebb1fb-c039-4085-b894-f457813ea0df)
+
+![Screenshot 2024-08-27 183246](https://github.com/user-attachments/assets/76281236-ce89-41ad-a952-ac7adf3b17fa)
+
+##  Permission Groups:
+
+![image](https://github.com/user-attachments/assets/231a8968-28f8-4857-ba54-a8450b725e9a)
+
+- **User, Group, Others:** Refers to the three categories of users who may have permissions on a file or directory.
+- **Read/Write/Execute:** Represents the different types of permissions that can be assigned to each group.
+
+## <span style="color: blue"> Changing File Permissions: </span>
+
+- `chmod 777 provision.sh:` Grants read, write, and execute permissions to all users for the file "provision.sh"
 
 
 
