@@ -176,9 +176,47 @@ The tree command provides a visual representation of the directory hierarchy, ma
 - **User, Group, Others:** Refers to the three categories of users who may have permissions on a file or directory.
 - **Read/Write/Execute:** Represents the different types of permissions that can be assigned to each group.
 
-## <span style="color: blue"> Changing File Permissions: </span>
+## Changing File Permissions: </span>
 
 - `chmod 777 provision.sh:` Grants read, write, and execute permissions to all users for the file "provision.sh"
+
+
+## Making a persistent environment variable: 
+`printenv USER`  displays the value of the USER environment variable.
+
+_However, these changes are temporary and will be lost when you log out or close the terminal session._
+
+To make the environment variable persist across sessions:
+- add the variable assignment (MYNAME=zeynab) to the **.bashrc file** in your home directory. 
+- This file is executed every time you start a new Bash shell session,
+- You can edit the **.bashrc file** using `nano .bashrc` and add the variable assignment at the end of the file.
+  
+![image](https://github.com/user-attachments/assets/de8b2851-1285-4908-8bcf-859fa16e7ba0)
+
+
+
+# Aliases - Shortcut custom commands
+`alias` - lists all the alias that are currently set 
+Example to set an alias : alias hello='echo "Hello World"'
+go into the .zshrc file `vim zshrc` : 
+<br>
+![image](https://github.com/user-attachments/assets/e92fa442-49ff-4f84-a16b-b6c4745ece3e) 
+
+# Applying the Changes:
+After editing the configuration file, run `source ~/.bashrc` or `source ~/.zshrc` to apply the changes immediately without needing to restart the terminal.
+
+some aliases i've added :) 
+
+![image](https://github.com/user-attachments/assets/14187141-faf6-4c65-ba51-fd0eeff9b99e)
+
+
+
+
+
+
+
+
+
 
 
 
