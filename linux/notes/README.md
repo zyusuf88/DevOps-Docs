@@ -1,5 +1,27 @@
+- [Commands for System Information:](#commands-for-system-information)
+- [User and System Information:](#user-and-system-information)
+- [Process Information and History:](#process-information-and-history)
+- [Working with Files and Directories:](#working-with-files-and-directories)
+- [Downloading an Image:](#downloading-an-image)
+- [File and Directory Manipulation:](#file-and-directory-manipulation)
+- [File Creation and Editing:](#file-creation-and-editing)
+  - [Viewing File Content:](#viewing-file-content)
+- [Searching within Files:](#searching-within-files)
+  - [Moving Files:](#moving-files)
+- [Adding and Removing Files:](#adding-and-removing-files)
+- [ZSH:](#zsh)
+- [Changing ZSH Themes:](#changing-zsh-themes)
+- [Vim Navigation and Editing:](#vim-navigation-and-editing)
+  - [tree:](#tree)
+- [User Management and Sudo Commands:](#user-management-and-sudo-commands)
+- [Permission Groups:](#permission-groups)
+  - [Changing File Permissions: ](#changing-file-permissions-)
+- [Making a persistent environment variable:](#making-a-persistent-environment-variable)
+- [Aliases - Shortcut custom commands](#aliases---shortcut-custom-commands)
+- [Applying the Changes:](#applying-the-changes)
 
-## Commands for System Information:
+
+# Commands for System Information:
 
 | **Command**                 | **Description/Usage**                                                                                     |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------|
@@ -9,7 +31,7 @@
 | `uname -n`                  | Shows the network (host) name of the machine.                                                             |
 | `uname -a`                  | Prints all system information, including kernel version and architecture.                                 |
 
-## User and System Information:
+# User and System Information:
 
 | **Command**                 | **Description/Usage**                                                                                     |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------|
@@ -18,7 +40,7 @@
 | `cat /etc/shells`           | Lists the available shells on the system.                                                                 |
 | **Tip**                     | The `cat /etc/shells` command is useful for checking which shells are available when switching or configuring a new shell for a user. |
 
-## Process Information and History:
+# Process Information and History:
 
 | **Command**                 | **Description/Usage**                                                                                     |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------|
@@ -27,7 +49,7 @@
 | `history -c`                | Clears the command history.                                                                               |
 | **Warning**                 | Using `history -c` will permanently delete your command history for the current session, which cannot be undone. |
 
-## Working with Files and Directories:
+# Working with Files and Directories:
 
 | **Command**                 | **Description/Usage**                                                                                     |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------|
@@ -41,7 +63,7 @@
 
 
 
-## Downloading an Image:
+# Downloading an Image:
 
 | **Command**                                                                                 | **Description/Usage**                                                                                       |
 |---------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
@@ -50,7 +72,7 @@
 | `mv cat.jpg cat`                                                                            | Moves or renames a file.                                                                                     |
 | `cp cat cat.jpg`                                                                            | Copies a file.                                                                                               |
 
-## File and Directory Manipulation:
+# File and Directory Manipulation:
 
 | **Command**                           | **Description/Usage**                                                                                       |
 |---------------------------------------|-------------------------------------------------------------------------------------------------------------|
@@ -59,7 +81,7 @@
 | `rm -r`  or `rm -rf`                  | Removes directories recursively. `-r` stands for recursive, and `-f` stands for force, which removes without confirmation. |
 | **Warning**                           | Be extremely careful with `rm -rf`, as it will delete everything in the specified directory without prompting for confirmation. |
 
-## File Creation and Editing:
+# File Creation and Editing:
 
 | **Command**                           | **Description/Usage**                                                                                       |
 |---------------------------------------|-------------------------------------------------------------------------------------------------------------|
@@ -80,7 +102,7 @@
 <img width="356" alt="image" src="https://github.com/user-attachments/assets/8fb43cc6-ebf6-4a25-81c0-a5bdaad851ff">
 
 
-## Searching within Files:
+# Searching within Files:
 
 | **Command**                           | **Description/Usage**                                                                                       |
 |---------------------------------------|-------------------------------------------------------------------------------------------------------------|
@@ -94,14 +116,14 @@
 | `mv funny_stuff/chicken-joke.txt .`                                         | Moves the file "chicken-joke.txt" back to the current directory.                                            |
 | `mv funny_stuff/funny_jokes/chicken-joke.txt funny_stuff/funny_jokes/bad_joke.txt` | Renames the file "chicken-joke.txt" to "bad_joke.txt" inside the "funny_jokes" directory.                    |
 
-## Adding and Removing Files:
+# Adding and Removing Files:
 
 | **Command**                           | **Description/Usage**                                                                                       |
 |---------------------------------------|-------------------------------------------------------------------------------------------------------------|
 | `nano provision.sh`                   | Opens the nano text editor to create or edit a shell script named "provision.sh".                            |
 | `chmod u+x provision.sh`              | Grants execute permission to the owner (user) of the file "provision.sh".                                    |
 
-## ZSH:
+# ZSH:
 
 | **Command**                                                   | **Description/Usage**                                                                                       |
 |---------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
@@ -112,7 +134,7 @@
 
 > [!TIP]
 > `sudo !!` runs the previous command with sudo infront 
-## Changing ZSH Themes:
+# Changing ZSH Themes:
 
 | **Command**                           | **Description/Usage**                                                                                       |
 |---------------------------------------|-------------------------------------------------------------------------------------------------------------|
@@ -124,7 +146,7 @@
 
 ![Screenshot 2024-08-26 234359](https://github.com/user-attachments/assets/b4f37d48-a00d-4144-af12-9852f21e9256)
 
-## Vim Navigation and Editing:
+# Vim Navigation and Editing:
 
 | **Command**                            | **Description/Usage**                                                                                       |
 |----------------------------------------|-------------------------------------------------------------------------------------------------------------|
@@ -150,7 +172,7 @@
 
 The tree command provides a visual representation of the directory hierarchy, making it easier to navigate and understand the organization of files and folders within a system. 
 
-## User Management and Sudo Commands:
+# User Management and Sudo Commands:
 
 | **Command**                                   | **Description/Usage**                                                                                       |
 |-----------------------------------------------|-------------------------------------------------------------------------------------------------------------|
@@ -169,7 +191,7 @@ The tree command provides a visual representation of the directory hierarchy, ma
 
 ![Screenshot 2024-08-27 183246](https://github.com/user-attachments/assets/76281236-ce89-41ad-a952-ac7adf3b17fa)
 
-##  Permission Groups:
+# Permission Groups:
 
 ![image](https://github.com/user-attachments/assets/231a8968-28f8-4857-ba54-a8450b725e9a)
 
@@ -181,7 +203,7 @@ The tree command provides a visual representation of the directory hierarchy, ma
 - `chmod 777 provision.sh:` Grants read, write, and execute permissions to all users for the file "provision.sh"
 
 
-## Making a persistent environment variable: 
+# Making a persistent environment variable: 
 `printenv USER`  displays the value of the USER environment variable.
 
 _However, these changes are temporary and will be lost when you log out or close the terminal session._
@@ -205,7 +227,7 @@ go into the .zshrc file `vim zshrc` :
 # Applying the Changes:
 After editing the configuration file, run `source ~/.bashrc` or `source ~/.zshrc` to apply the changes immediately without needing to restart the terminal.
 
-some aliases i've added :) 
+some aliases I've added :) 
 
 ![image](https://github.com/user-attachments/assets/14187141-faf6-4c65-ba51-fd0eeff9b99e)
 
