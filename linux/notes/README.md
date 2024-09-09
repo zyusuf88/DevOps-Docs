@@ -227,7 +227,7 @@ go into the .zshrc file `vim zshrc` :
 # Applying the Changes:
 After editing the configuration file, run `source ~/.bashrc` or `source ~/.zshrc` to apply the changes immediately without needing to restart the terminal.
 
-some aliases I've added :) 
+some aliases I've added :)  
 
 ![image](https://github.com/user-attachments/assets/14187141-faf6-4c65-ba51-fd0eeff9b99e)
 
