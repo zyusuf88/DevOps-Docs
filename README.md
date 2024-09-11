@@ -43,7 +43,7 @@ A core part of DevOps isn’t just technical—**collaboration** between teams i
   - Guidelines for working with other departments (Ops, Development, QA).
   - Onboarding information to ensure new team members can hit the ground running quickly.
 
-> **Warning:** If the key processes of your team aren’t written down, you risk delays and missed opportunities. Always ensure that **collaborative processes** are documented for easy reference.
+> [!WARNING] If the key processes of your team aren’t written down, you risk delays and missed opportunities. Always ensure that **collaborative processes** are documented for easy reference.
 
 ---
 
@@ -59,7 +59,8 @@ Even the best teams face unexpected failures. When things go wrong, **incident r
   - Steps taken to resolve the issue.
   - Suggestions on how to avoid similar issues in the future.
 
-> **Note:** Post-mortems should focus on **blameless learning**. The goal isn’t to assign fault but to improve processes and prevent future incidents.
+> [!NOTE]
+> Post-mortems should focus on **blameless learning**. The goal isn’t to assign fault but to improve processes and prevent future incidents.
 
 ---
 
@@ -71,7 +72,8 @@ Knowing **what** to document is just the beginning. Here are some tips for ensur
 - **Centralize Information:** Avoid scattered notes or documents. Use a centralised system to ensure everyone can access the most up-to-date information.
 - **Regularly Update Documentation:** As your infrastructure, processes, and teams change, so should your documentation. Set up regular reviews to keep it current.
 
-> **Reminder:** Documentation is a living entity—it evolves as your team and systems grow. Make it a habit to regularly update and review it.
+> [!NOTE]
+> Documentation is a living entity—it evolves as your team and systems grow. Make it a habit to regularly update and review it.
 
 ---
 
