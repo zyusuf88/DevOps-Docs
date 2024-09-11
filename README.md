@@ -43,7 +43,8 @@ A core part of DevOps isn’t just technical—**collaboration** between teams i
   - Guidelines for working with other departments (Ops, Development, QA).
   - Onboarding information to ensure new team members can hit the ground running quickly.
 
-> [!WARNING] If the key processes of your team aren’t written down, you risk delays and missed opportunities. Always ensure that **collaborative processes** are documented for easy reference.
+>[!WARNING] 
+> If the key processes of your team aren’t written down, you risk delays and missed opportunities. Always ensure that **collaborative processes** are documented for easy reference.
 
 ---
 
