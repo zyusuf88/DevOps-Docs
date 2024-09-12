@@ -1,5 +1,5 @@
 #!/bin/bash
-ls -lh *.txt | awk '{print $5, $9}' 
+ls -lh *.txt | awk '{print $5, $9}'  
 
 
 

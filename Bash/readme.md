@@ -115,9 +115,11 @@ This script successfully creates a new directory called `backup` and copies all 
 - This option shows sizes in KB, MB, etc., but it **doesn't actually sort the files based on their size.**
 
 - `awk '{print $5, $9}' `: extracts the 5th (file size) and 9th column (file name) ONLY from the ls -l output, which are the file size and file name respectively.
-- `sort -h:` Sorts the files based on their human-readable sizes.
+
 
 ![](images/level7.png)
+
+Please note these files are empty - hence the size :) 
 
 # LEVEL 8
 

@@ -93,10 +93,9 @@ This documentation is just the beginning! I’ll be covering a range of DevOps t
 - **Networking:** Understanding the basics and advanced concepts in networking.
 - ...and much more!
 
-> **Stay tuned** for continuous updates, guides, and notes that will help you build, manage, and scale your infrastructure effectively.
 
 If you found this helpful or want to learn more, make sure to explore the rest of the repository. Let’s learn and grow together!
 
 ---
 
-_Thanks for checking out my DevOps Documentation! Feel free to reach out with feedback or questions—I'm always open to a good conversation._
+_Thanks for checking out my DevOps Documentation! Feel free to reach out with feedback or questions—I'm always open to a good conversation._ :) :)
