@@ -70,7 +70,7 @@ Even the best teams face unexpected failures. When things go wrong, **incident r
 Knowing **what** to document is just the beginning. Here are some tips for ensuring your documentation is effective:
 
 - **Keep It Simple:** Avoid jargon and overly technical language. Documentation should be understandable to anyone, even those without technical skills.
-- **Centralize Information:** Avoid scattered notes or documents. Use a centralised system to ensure everyone can access the most up-to-date information.
+- **Centralise Information:** Avoid scattered notes or documents. Use a centralised system to ensure everyone can access the most up-to-date information.
 - **Regularly Update Documentation:** As your infrastructure, processes, and teams change, so should your documentation. Set up regular reviews to keep it current.
 
 > [!NOTE]

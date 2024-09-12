@@ -192,9 +192,13 @@ Bash allows reading user inputs from the terminal using the read command.
 
 
 ```bash
-echo "Enter your name: "
-read name
-echo "Hello, $name!"
+greet_user(){
+ echo "Enter your name?"
+ read name
+ echo "Hello, $name!"
+
+}
+great_user
 ```
 This prompts the user for their name and then greets them.
 
