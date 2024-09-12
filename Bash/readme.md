@@ -1,7 +1,7 @@
 ![](images/BASH%20ARENA.avif)
 
 # LEVEL 1
-*see the completed Bash script [here](./level1.sh)*
+*see the completed Bash script [here](./bash%20battle%20arena/Arena/level1.sh)*
 
 - `mkdir Arena`: Creates the Arena directory.
 - `cd Arena`: Moves into the Arena directory
@@ -12,7 +12,7 @@
 ![](images/level1.png)
 
 # LEVEL 2
-*see the completed Bash script [here](./level2.sh)*
+*see the completed Bash script [here](./bash%20battle%20arena/Arena/level2.sh)*
 
 - `for i in {1..10}; do`: This creates a loop that starts at 1 and increments up to 10.
   - `{1..10}`: Defines the range of numbers for the loop.
@@ -32,7 +32,7 @@ This script outputs the numbers 1 through 10, with each number printed on a new 
 
 
 # LEVEL 3
-*see the completed Bash script [here](./level3.sh)*
+*see the completed Bash script [here](./bash%20battle%20arena/Arena/level3.sh)*
 
 - `if [ -f "./Arena/hero.txt" ]; then`: This checks if the file `hero.txt` exists in the `Arena` directory.
   - `-f` checks if the file exists and is a regular file.
@@ -49,7 +49,7 @@ This script effectively checks for the existence of `hero.txt` and provides appr
 
 
 # LEVEL 4
-*see the completed Bash script [here](./level4.sh)*
+*see the completed Bash script [here](./bash%20battle%20arena/Arena/level4.sh)*
 
 - `mkdir backup`: This creates a new directory called `backup`.
   - This directory will be used to store all `.txt` files copied from the current directory.
@@ -68,7 +68,7 @@ This script successfully creates a new directory called `backup` and copies all 
 
 
 # LEVEL 5: 
-*see the completed Bash script [here](./level5.sh)*
+*see the completed Bash script [here](./bash%20battle%20arena/Arena/level5.sh)*
 
 - `mkdir Battlefield`: Creates a `Battlefield` directory for files.
   
@@ -88,7 +88,7 @@ This script successfully creates a new directory called `backup` and copies all 
 
 
 # LEVEL 6
-*see the completed Bash script [here](./level6.sh)*
+*see the completed Bash script [here](./bash%20battle%20arena/Arena/level6.sh)*
 
 - `FILE="$1"`: This saves the first argument (the filename) passed to the script into the `FILE` variable.
 
@@ -110,7 +110,7 @@ This script successfully creates a new directory called `backup` and copies all 
 ![](images/level6.png)
 
 # LEVEL 7 
-*see the completed Bash script [here](./level7.sh)*
+*see the completed Bash script [here](./bash%20battle%20arena/Arena/level7.sh)*
 - `ls -lh`: the file size is displayed in a human-readable format. 
 - This option shows sizes in KB, MB, etc., but it **doesn't actually sort the files based on their size.**
 
@@ -121,7 +121,7 @@ This script successfully creates a new directory called `backup` and copies all 
 
 # LEVEL 8
 
-*see the completed Bash script [here](./level8.sh)*
+*see the completed Bash script [here](./bash%20battle%20arena/Arena/level8.sh)*
 
 - `if [ -z "$1" ];`: This checks if the user has provided a word or phrase to search for.
   - If no word is provided, the script shows an error message and exits.
