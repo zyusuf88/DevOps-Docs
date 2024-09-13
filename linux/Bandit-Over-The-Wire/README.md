@@ -93,7 +93,7 @@ bandit0
 
 ### 📝 Steps:
 1. `ls` to list files.
-2. `cat "spaces*` to read the file with spaces in its name.
+2. `cat spaces*` to read the file with spaces in its name.
 
 ---
 
