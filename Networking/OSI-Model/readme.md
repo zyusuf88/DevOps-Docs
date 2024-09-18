@@ -18,7 +18,6 @@
     - [IKE (internet key exchange)(slow \& heavy) PHASE 1:](#ike-internet-key-exchangeslow--heavy-phase-1)
     - [IKE (internet key exchange)(fast \& agile) PHASE 2:](#ike-internet-key-exchangefast--agile-phase-2)
 - [Application (Layer 7) Firewalls](#application-layer-7-firewalls)
-  - [Okay let's summarise.....](#okay-lets-summarise)
 
 
 # What Is the OSI Model
@@ -262,8 +261,6 @@ Most user-facing protocols and applications like HTTP, FTP and SMTP operate on l
 
 ![](images/layer7.png)
 
-## Okay let's summarise.....
 
-okay that was ALOT .. in summary : 
 
 
